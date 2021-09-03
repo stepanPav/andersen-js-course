@@ -17,4 +17,7 @@ export function task9Old() {
 // Напишите реализацию функции task9Old на ES6+ ниже этого комментария.
 // При желании, можете использовать стрелочную функцию, вместо обычной
 
-export function task9New() {}
+export function task9New() {
+    let result = 'test'.indexOf('est') !== -1;
+    console.log(result)
+}
